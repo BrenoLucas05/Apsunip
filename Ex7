@@ -1,0 +1,28 @@
+
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+ int tempo;
+ int velocidade;
+ int distancia;
+ float quantidade_litros;
+
+ printf("Insira tempo gasto na viagem: ");
+ scanf_s("%d", &tempo);
+
+ printf("Insira velocidade media: ");
+ scanf_s("%d", &velocidade);
+
+ distancia=tempo*velocidade;
+ quantidade_litros=(float)distancia / 12;
+
+ printf("Foram gastos %f litros de combustivel na viagem", quantidade_litros);
+
+system("PAUSE");
+ return 0;
+}
+	
