@@ -13,7 +13,7 @@ int main() {
 	
 	r=s+(s* 0.25);
 
-	printf("o resultado e : %4.1f" , r);
+	printf("o resultado e : %4.2f" , r);
 	
 	return 0;
 
